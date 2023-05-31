@@ -1,0 +1,206 @@
+body {
+    margin: 0 0 1.87em;
+    padding-top: 1.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1.87em;
+    background-color: #FFFF;
+}
+
+header {
+    height: 3.124em;
+    width: 100%;
+    align-items: center;
+}
+
+button {
+    background-color: #71C9CE;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c57b3f;
+}
+
+.container {
+    width: 100%;
+    display: block;
+}
+
+.uucw_container {
+    width: 100%;
+    display: table;
+    padding: 0;
+    text-align: center;
+}
+
+.top {
+    padding: 0;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+h1 {
+    color: #666666;
+    display: inline-block;
+    font-size: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.321em;
+}
+
+.text {
+    padding-right: 10px;
+}
+
+.input_text1 {
+    margin-left: 7px;
+}
+
+.input_text3 {
+    margin-left: -6px;
+}
+
+.input_text4 {
+    margin-left: 10px;
+}
+
+.input_text7 {
+    margin-left: -7px;
+}
+
+.input_text8 {
+    margin-left: 30px;
+}
+
+.input_text9 {
+    margin-left: 39px;
+}
+
+.btn_Help {
+    display: inline-block;
+}
+
+.uucw_input {
+    background-color: #E7F7F3;
+    width: 50%;
+    display: table-cell;
+}
+
+.uucw_form {
+    width: 100%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltip_text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip_text {
+    visibility: visible;
+}
+
+fieldset {
+    border: 0;
+}
+
+.uucw_output {
+    background-color: #E7F7F3;
+    width: 50%;
+    display: table-cell;
+}
+
+table {
+    width: 80%;
+    display: block;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    width: 120px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background-color: #3399ff;
+    color: white;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+.total_cell {
+    text-align: right;
+}
+
+.td_total {
+    font-weight: bold;
+}
+
+.sumbit {
+    border: 1px solid #0c0c0c;
+    width: 500px;
+    padding: 25px;
+    margin: auto;
+}
+
+.nav_button_area {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    width: 80%;
+    float: left;
+    text-align: center;
+}
+
+.nav_button_area button {
+    display: inline-block;
+}
+
+.back {
+    float: left;
+}
+
+.next {
+    float: right;
+}

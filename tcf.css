@@ -1,0 +1,132 @@
+body{
+    margin: 0 0 1.87em;
+    padding-top:1.5%;
+    padding-left:10%;
+    padding-right: 10%;
+    padding-bottom: 1.87em;
+}
+header{
+    height: 3.124em;
+    width: 100%;
+    align-items: center;
+}
+button{
+    background-color: #e29a5f;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #c57b3f;
+}
+.tcf_container,.tcf_table{
+    width: 100%;
+    display: table;
+    background-color: white;
+    text-align: center;
+}
+.top{
+    padding: 0;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+h1{
+    color:#666666;
+    display: inline-block;
+    font-size: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.321em;
+}
+.btn_Help{
+    display: inline-block;
+}
+.tcf_input{
+    width: 60%;
+    display: table-cell;
+}
+.tcf_row{
+    border: 1px solid #ddd;
+    display: table-row;
+}
+#tcf_hd1,#tcf_hd2,#tcf_hd3,#tcf_hd4{
+    background-color: #3399ff;
+    color: white;
+    font-weight: bold;
+}
+.tcf_cell{
+    font-size: 14px;
+    border: 1px solid #ddd;
+    display: table-cell;
+    padding:2px;
+}
+.uucw_form{
+    width: 100%;
+}
+fieldset{
+    border: 0;
+}
+.tcf_output{
+    width: 40%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.tcf_total_display{
+    display: block;
+    width: 70%;
+    border: 1px solid black;
+    background-color: #cce6ff;
+    margin: 0px auto;
+    padding: 10px;
+}
+table{
+    width: 80%;
+    display: block;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    height: 20px;
+    padding:5px;
+    border: 1px solid #ddd;
+    background-color: #3399ff;
+    color: white;
+}
+td{
+    padding: 8px;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+.total_cell{
+    text-align: right;
+}
+.td_total{
+    font-weight: bold;
+}
+.nav_button_area{
+    display: block;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom: 3%;
+    width: 80%;
+    float: left;
+    text-align: center;
+}
+.nav_button_area button{
+    display: inline-block;
+}
+.back{
+    float: left;
+}
+.next{
+    float: right;
+}
